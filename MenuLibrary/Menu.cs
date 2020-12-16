@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CircleMenuApp
+namespace MenuLibrary
 {
     public class Menu
     {
@@ -52,7 +52,7 @@ namespace CircleMenuApp
                 return "";
             }
 
-            return (string)items[indexCurrentSelected].;
+            return (string)items[indexCurrentSelected];
         }
 
         public override string ToString()

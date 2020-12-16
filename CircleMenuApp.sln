@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleMenuApp", "CircleMenuApp\CircleMenuApp.csproj", "{5BB6D2A0-6816-4A60-BD45-ED31F0B91A01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircleMenuApp", "CircleMenuApp\CircleMenuApp.csproj", "{5BB6D2A0-6816-4A60-BD45-ED31F0B91A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleLibrary", "CircleLibrary\CircleLibrary.csproj", "{1C9DB844-A48E-458D-8E6D-064B64176821}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuLibrary", "MenuLibrary\MenuLibrary.csproj", "{D33510BF-EE8E-40AE-B971-065954B22209}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{5BB6D2A0-6816-4A60-BD45-ED31F0B91A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BB6D2A0-6816-4A60-BD45-ED31F0B91A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BB6D2A0-6816-4A60-BD45-ED31F0B91A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C9DB844-A48E-458D-8E6D-064B64176821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C9DB844-A48E-458D-8E6D-064B64176821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C9DB844-A48E-458D-8E6D-064B64176821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C9DB844-A48E-458D-8E6D-064B64176821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D33510BF-EE8E-40AE-B971-065954B22209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D33510BF-EE8E-40AE-B971-065954B22209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D33510BF-EE8E-40AE-B971-065954B22209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D33510BF-EE8E-40AE-B971-065954B22209}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
